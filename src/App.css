@@ -1,0 +1,117 @@
+.app {
+  text-align: center;
+  color: white;
+  background-image: url("/public/img/IMG_5923.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.app::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.header {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.header h1 {
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+}
+
+/* Main section */
+main {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Rows */
+.social-row {
+  border-radius: 15px;
+  margin: 15px 0;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.social-row:hover {
+  transform: scale(1.03);
+}
+
+.social-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.social-name {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.social-btn {
+  background: #ffd700;
+  color: #000;
+  padding: 8px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.social-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Gradients */
+.whatsapp {
+  background: linear-gradient(45deg, #25d366, #1da851);
+}
+
+.instagram {
+  background: linear-gradient(45deg, #e4405f, #833ab4);
+}
+
+.address {
+  background: linear-gradient(45deg, #4285f4, #34a853);
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
