@@ -38,7 +38,7 @@ function App() {
                   className="social-btn"
                 >
                   <a
-                    href="https://chat.whatsapp.com/FPYGqJr0pqYANvMilbtG7t"
+                    href="https://chat.whatsapp.com/FPYGqJr0pqYANvMilbtG7t?mode=r_c&fbclid=PAZXh0bgNhZW0CMTEAAacEptE1FGcWxC1daOQOJheJ64voX0l78r8PY7pI7ZTWtWnqjohfFjaTkkeqZw_aem_GodFGhGecvg43AFT_8g5OA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn"
@@ -70,7 +70,7 @@ function App() {
                   className="social-btn"
                 >
                   <a
-                    href="https://www.instagram.com/yourusername"
+                    href="https://www.instagram.com/shyam_mandir_delsar?igsh=dTdnZ3hmcjBsdm5j"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn"
@@ -101,7 +101,7 @@ function App() {
                   className="social-btn"
                 >
                   <a
-                    href="https://goo.gl/maps/yourlocationlink"
+                    href="https://maps.app.goo.gl/Lz6rQjgDy3xKQh7F7"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn"
