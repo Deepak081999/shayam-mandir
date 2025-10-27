@@ -37,15 +37,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  <a
-                    href="https://chat.whatsapp.com/FPYGqJr0pqYANvMilbtG7t?mode=r_c&fbclid=PAZXh0bgNhZW0CMTEAAacEptE1FGcWxC1daOQOJheJ64voX0l78r8PY7pI7ZTWtWnqjohfFjaTkkeqZw_aem_GodFGhGecvg43AFT_8g5OA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-btn"
-                  >
-                    <i className="fab fa-whatsapp"></i> Join Now
-                  </a>
-
+                  <i className="fab fa-whatsapp"></i> Join Now
                 </a>
               </div>
             </div>
@@ -69,15 +61,9 @@ function App() {
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  <a
-                    href="https://www.instagram.com/shyam_mandir_delsar?igsh=dTdnZ3hmcjBsdm5j"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-btn"
-                  >
-                    <i className="fab fa-instagram"></i> Join Now
-                  </a>
+                  <i className="fab fa-instagram"></i> Join Now
                 </a>
+
               </div>
             </div>
 
@@ -100,16 +86,10 @@ function App() {
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  <a
-                    href="https://maps.app.goo.gl/Lz6rQjgDy3xKQh7F7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-btn"
-                  >
-                    <i className="fas fa-map-marker-alt"></i> Visit Us
-                  </a>
-
+                  <i className="fas fa-map-marker-alt"></i> Visit Us
                 </a>
+
+
               </div>
             </div>
           </div>
@@ -120,7 +100,7 @@ function App() {
       <footer>
         <p>© 2025 Shyam Mandir Delsar | All Rights Reserved</p>
       </footer>
-    </div>
+    </div >
   );
 }
 
