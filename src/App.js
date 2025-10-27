@@ -26,11 +26,11 @@ function App() {
                 />
               </div>
               <div className="col-md-4 col-12">
-                <h3 className="social-name">WhatsApp Channel</h3>
+                <h3 className="social-name">श्री श्याम मंदिर देलसर</h3>
               </div>
               <div className="col-md-4 col-12">
                 <a
-                  href="https://whatsapp.com/channel/0029Vb75Ibp0Qearq0F9D61d"
+                  href="https://l.instagram.com/?u=https%3A%2F%2Fchat.whatsapp.com%2FFPYGqJr0pqYANvMilbtG7t%3Fmode%3Dr_c%26fbclid%3DPAZXh0bgNhZW0CMTEAAacEptE1FGcWxC1daOQOJheJ64voX0l78r8PY7pI7ZTWtWnqjohfFjaTkkeqZw_aem_GodFGhGecvg43AFT_8g5OA&e=AT03mntY5c2-4YdqmHYbPlUEu60aLvwbqVPbsd3CVWCuPqRIGPRytpcQZ_oAFWUMWJLhUTYSneQZI9yYZbXn48Hg9zetqpEacbHzfh1BbmBHOR2XZmc_HP8_-w"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-btn"
@@ -50,7 +50,7 @@ function App() {
                 />
               </div>
               <div className="col-md-4 col-12">
-                <h3 className="social-name">Instagram Page</h3>
+                <h3 className="social-name">श्री श्याम मंदिर देलसर</h3>
               </div>
               <div className="col-md-4 col-12">
                 <a
