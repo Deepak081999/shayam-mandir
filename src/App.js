@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // ✅ make sure Bootstrap is imported
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
             <div className="row social-row whatsapp align-items-center">
               <div className="col-md-4 col-12">
                 <img
-                  src="/img/whatsapp-logo.png"
+                  src="/img/whatsapp-logo.jpg"
                   alt="WhatsApp"
                   className="social-img"
                 />
@@ -30,12 +32,20 @@ function App() {
               </div>
               <div className="col-md-4 col-12">
                 <a
-                  href="https://l.instagram.com/?u=https%3A%2F%2Fchat.whatsapp.com%2FFPYGqJr0pqYANvMilbtG7t%3Fmode%3Dr_c%26fbclid%3DPAZXh0bgNhZW0CMTEAAacEptE1FGcWxC1daOQOJheJ64voX0l78r8PY7pI7ZTWtWnqjohfFjaTkkeqZw_aem_GodFGhGecvg43AFT_8g5OA&e=AT03mntY5c2-4YdqmHYbPlUEu60aLvwbqVPbsd3CVWCuPqRIGPRytpcQZ_oAFWUMWJLhUTYSneQZI9yYZbXn48Hg9zetqpEacbHzfh1BbmBHOR2XZmc_HP8_-w"
+                  href="https://chat.whatsapp.com/FPYGqJr0pqYANvMilbtG7t?mode=r_c&fbclid=PAZXh0bgNhZW0CMTEAAacEptE1FGcWxC1daOQOJheJ64voX0l78r8PY7pI7ZTWtWnqjohfFjaTkkeqZw_aem_GodFGhGecvg43AFT_8g5OA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  Join Now
+                  <a
+                    href="https://chat.whatsapp.com/FPYGqJr0pqYANvMilbtG7t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-btn"
+                  >
+                    <i className="fab fa-whatsapp"></i> Join Now
+                  </a>
+
                 </a>
               </div>
             </div>
@@ -50,7 +60,7 @@ function App() {
                 />
               </div>
               <div className="col-md-4 col-12">
-                <h3 className="social-name">श्री श्याम मंदिर देलसर</h3>
+                <h3 className="social-name">shyam_mandir_delsar</h3>
               </div>
               <div className="col-md-4 col-12">
                 <a
@@ -59,7 +69,14 @@ function App() {
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  Visit
+                  <a
+                    href="https://www.instagram.com/yourusername"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-btn"
+                  >
+                    <i className="fab fa-instagram"></i> Join Now
+                  </a>
                 </a>
               </div>
             </div>
@@ -83,7 +100,15 @@ function App() {
                   rel="noopener noreferrer"
                   className="social-btn"
                 >
-                  View
+                  <a
+                    href="https://goo.gl/maps/yourlocationlink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-btn"
+                  >
+                    <i className="fas fa-map-marker-alt"></i> Visit Us
+                  </a>
+
                 </a>
               </div>
             </div>
